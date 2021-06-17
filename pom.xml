@@ -8,12 +8,12 @@
     <!-- Baseline Jenkins version you use to build and test the plugin. Users must have this version or newer to run. -->
     <version>2.11</version>
     <relativePath />
-    </parent>
-  
-  
+  </parent>
+
   <artifactId>maven-snapshot-check</artifactId>
   <version>1.6-SNAPSHOT</version>
   <packaging>hpi</packaging>
+
   <name>Maven SNAPSHOT Check Plugin</name>
   <description>It is used to check if pom.xml contains SNAPSHOT</description>
   <url>https://github.com/jenkinsci/maven-snapshot-check-plugin</url>
@@ -113,8 +113,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
-   
 
 
 
