@@ -13,24 +13,6 @@
   <artifactId>maven-snapshot-check</artifactId>
   <version>1.6-SNAPSHOT</version>
   <packaging>hpi</packaging>
-  
-  <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-javadoc-plugin</artifactId>
-    <version>2.10.2</version>
-    <executions>
-        <execution>
-            <id>attach-javadocs</id>
-            <goals>
-                <goal>jar</goal>
-            </goals>
-            <configuration> <!-- add this to disable checking -->
-                <additionalparam>-Xdoclint:none</additionalparam>
-            </configuration>
-        </execution>
-    </executions>
-</plugin>
-
   <name>Maven SNAPSHOT Check Plugin</name>
   <description>It is used to check if pom.xml contains SNAPSHOT</description>
   <url>https://github.com/jenkinsci/maven-snapshot-check-plugin</url>
