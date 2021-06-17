@@ -8,9 +8,9 @@
     <!-- Baseline Jenkins version you use to build and test the plugin. Users must have this version or newer to run. -->
     <version>2.11</version>
     <relativePath />
-    
- 
-  </parent>
+    </parent>
+  
+  
   <artifactId>maven-snapshot-check</artifactId>
   <version>1.6-SNAPSHOT</version>
   <packaging>hpi</packaging>
