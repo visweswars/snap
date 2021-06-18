@@ -11,12 +11,12 @@
   </parent>
 
   <artifactId>maven-snapshot-check</artifactId>
-  <version>1.6-SNAPSHOT</version>
+  <version>1.4-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
   <name>Maven SNAPSHOT Check Plugin</name>
   <description>It is used to check if pom.xml contains SNAPSHOT</description>
-  <url>https://github.com/visweswars/snap.git</url>
+  <url>https://wiki.jenkins-ci.org/display/JENKINS/Maven+SNAPSHOT+Check+Plugin</url>
   <licenses>
     <license>
       <name>MIT License</name>
@@ -32,9 +32,9 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/visweswars/snap.git</connection>
-    <developerConnection>scm:git:git@github.com:visweswars/snap.git</developerConnection>
-    <url>https://github.com/visweswars/snap.git</url>
+    <connection>scm:git:git://github.com/jenkinsci/maven-snapshot-check-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/maven-snapshot-check-plugin.git</developerConnection>
+    <url>http://github.com/jenkinsci/maven-snapshot-check-plugin</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -54,13 +54,13 @@
   <repositories>
     <repository>
       <id>repo.jenkins-ci.org</id>
-      <url>https://repo.jenkins-ci.org/public/</url>
+      <url>http://repo.jenkins-ci.org/public/</url>
     </repository>
   </repositories>
   <pluginRepositories>
     <pluginRepository>
       <id>repo.jenkins-ci.org</id>
-      <url>https://repo.jenkins-ci.org/public/</url>
+      <url>http://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
 
