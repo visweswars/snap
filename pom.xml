@@ -25,16 +25,15 @@
   </licenses>
   <developers>
     <developer>
-      <id>donhui</id>
-      <name>donghui</name>
-      <email>977675308@nqq.com</email>
+      <id>babu</id>
+      <name>babu</name>
+      <email>visweswars.dev@gmail.com</email>
     </developer>
   </developers>
 
   <scm>
     <connection>scm:git:git://github.com/visweswars/snap.git</connection>
     <developerConnection>scm:git:git@github.com:visweswars/snap.git</developerConnection>
-    <url>https://github.com/visweswars/snap.git</url>
     <tag>HEAD</tag>
   </scm>
 
