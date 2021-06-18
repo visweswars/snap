@@ -16,7 +16,7 @@
 
   <name>Maven SNAPSHOT Check Plugin</name>
   <description>It is used to check if pom.xml contains SNAPSHOT</description>
-  <url>https://github.com/visweswars/snap.git</url>
+  <url>https://wiki.jenkins-ci.org/display/JENKINS/Maven+SNAPSHOT+Check+Plugin</url>
   <licenses>
     <license>
       <name>MIT License</name>
@@ -25,15 +25,16 @@
   </licenses>
   <developers>
     <developer>
-      <id>babu</id>
-      <name>babu</name>
-      <email>visweswars.dev@gmail.com</email>
+      <id>donhui</id>
+      <name>donghui</name>
+      <email>977675308@nqq.com</email>
     </developer>
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/visweswars/snap.git</connection>
-    <developerConnection>scm:git:git@github.com:visweswars/snap.git</developerConnection>
+    <connection>scm:git:git://github.com/jenkinsci/maven-snapshot-check-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/maven-snapshot-check-plugin.git</developerConnection>
+    <url>http://github.com/jenkinsci/maven-snapshot-check-plugin</url>
     <tag>HEAD</tag>
   </scm>
 
